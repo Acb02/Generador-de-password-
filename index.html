@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@700&family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <title>Generador de Contraseñas</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+    <main class="container">
+        <div class="container__contenido">
+            <div class="container__informacion">
+                <h1>Generador<span class="container__texto-azul"> de Contraseñas</span></h1>
+                <div class="container__campo">
+                    <label class="texto__parrafo"> <strong >Cantidad</strong>
+                        <input class="container__input" type="number" id="cantidad">
+                    </label>
+                </div>
+                <div class="container__contrasena" id="contrasena" placeholder="Contraseña"></div>
+                <div class="container__botones">
+                    <button class="boton_g" id="generar" >  Generar</button>
+                    <button class="boton_l" id="limpiar">  Limpiar</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="nota">
+            <p>NOTA: La contraseña incluye letras Mayusculas, Minusculas, Numeros y Caracteres Especiales</p>
+         </div>
+
+        <footer class="footer">
+            <p><strong>Desarrollado por Ana Corporán</strong></p>
+            <div>
+                <a href="https:/github.com/Acb02/" target="_blank">
+                    <img class="links" src="./assets/img/github.png" />
+                </a>
+                <a href="https:/www.linkedin.com/in/ana-corporán-7a5a71312/" target="_blank">
+                    <img class="links" src="./assets/img/linkedin.png" />
+                </a>
+            </div>
+        </footer>
+
+
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
